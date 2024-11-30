@@ -21,7 +21,7 @@ class _ClothingGridState extends State<ClothingGrid> {
       childAspectRatio: 200 / 244,
       physics: const BouncingScrollPhysics(),
       children: widget.clothing.map((clothing) =>
-          ClothingCard(id: clothing.id, name: clothing.name, image: clothing.img,),
+          ClothingCard(id: clothing.id, name: clothing.name, image: clothing.img, description: clothing.description, price: clothing.price),
       ).toList(),
     );
   }

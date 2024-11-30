@@ -12,12 +12,42 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
   List<Clothing> clothing = [
-      Clothing(id: 0, name: "T-Shirt", img: "https://dtfsheet.com/cdn/shop/files/Comfort_Colors_1717_Red_Front_High.jpg?v=1715639853"),
-      Clothing(id: 1, name: "Jeans", img: "https://found.store/cdn/shop/files/baggy-jeans-blue-lacy-found-2-1.jpg?v=1714676802&width=700"),
-      Clothing(id: 2, name: "Jacket", img: "https://cdni.llbean.net/is/image/wim/520163_699_41?hei=1095&wid=950&resMode=sharp2&defaultImage=llbprod/520163_699_41"),
-      Clothing(id: 3, name: "Dress", img: "https://n.nordstrommedia.com/it/f24e4b48-9a29-4e2c-a94b-119cde8118f3.jpeg?h=365&w=240&dpr=2"),
-      Clothing(id: 4, name: "Hoodie", img: "https://perplex.store/cdn/shop/files/1000084-ArmorHoodieBlack_01_bf22178f-324e-437f-af68-be4edd1f4a29.jpg?v=1728915678")];
-
+    Clothing(
+      id: 0,
+      name: "T-Shirt",
+      img: "https://dtfsheet.com/cdn/shop/files/Comfort_Colors_1717_Red_Front_High.jpg?v=1715639853",
+      description: "Comfortable cotton T-shirt, perfect for everyday wear.",
+      price: 19.99,
+    ),
+    Clothing(
+      id: 1,
+      name: "Jeans",
+      img: "https://found.store/cdn/shop/files/baggy-jeans-blue-lacy-found-2-1.jpg?v=1714676802&width=700",
+      description: "Stylish blue baggy jeans with a relaxed fit.",
+      price: 49.99,
+    ),
+    Clothing(
+      id: 2,
+      name: "Jacket",
+      img: "https://cdni.llbean.net/is/image/wim/520163_699_41?hei=1095&wid=950&resMode=sharp2&defaultImage=llbprod/520163_699_41",
+      description: "Warm and durable jacket, ideal for cold weather.",
+      price: 89.99,
+    ),
+    Clothing(
+      id: 3,
+      name: "Dress",
+      img: "https://n.nordstrommedia.com/it/f24e4b48-9a29-4e2c-a94b-119cde8118f3.jpeg?h=365&w=240&dpr=2",
+      description: "Elegant and lightweight dress for any occasion.",
+      price: 59.99,
+    ),
+    Clothing(
+      id: 4,
+      name: "Hoodie",
+      img: "https://perplex.store/cdn/shop/files/1000084-ArmorHoodieBlack_01_bf22178f-324e-437f-af68-be4edd1f4a29.jpg?v=1728915678",
+      description: "Comfortable hoodie with a stylish modern design.",
+      price: 39.99,
+    ),
+  ];
 
   @override
   void initState() {
